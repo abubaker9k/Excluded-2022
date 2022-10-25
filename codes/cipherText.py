@@ -51,6 +51,7 @@ def main():
         print(f"the decryped message of {cipher} with key {key} is {plain} \n")
     else :
         print("cesar cipher Encryption/Decryption failure !!! ")
+        exit()
 
 
 if __name__ == "__main__":
